@@ -12,3 +12,5 @@ sql = "SELECT * FROM pythontest"
 cur.execute(sql)
 for rs in cur:
     print(rs[0],rs[1])
+
+
